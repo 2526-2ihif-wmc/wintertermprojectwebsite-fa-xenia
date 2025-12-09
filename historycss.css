@@ -13,3 +13,10 @@ body{
 header{
     font-size: 1.25rem;
 }
+.subheadings{
+    font-size: 1.10rem;
+}
+img{
+    max-width: 10%;
+    float: right;
+}
