@@ -5,8 +5,25 @@
     font-family: Monsieur La Doulaise;
 }
 body{
-    background-color: #e4fdfd;
+    background-image: url("background.png");
+    background-size: 50%, contain;
+    background-repeat: repeat;
+    color: white;
 }
+/*#background
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background: url("background.png") repeat;
+    background-size: contain;
+    z-index: 1;
+    opacity: 0.2;
+}*/
+
 #list{
     font-weight: bold;
 }
