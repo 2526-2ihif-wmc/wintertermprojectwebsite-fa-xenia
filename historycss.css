@@ -1,39 +1,55 @@
+dl{
+    list-style-type: none;
+    top: 0;
+    left: 0;
+    width: 13vw;
+    padding: 0;
+    margin: 0;
+    background: rgb(237, 237, 237);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+dt{
+    margin: 0;
+    padding: 0.5em;
+}
+dd{
+    padding: 0.2em;
+}
+dt:hover, dd:hover{
+    background: #cdcdcd;
+    color: white;
+}
+
 #title {
+    margin-left: 13vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
     font-family: Monsieur La Doulaise;
 }
-body{
-    background-image: url("background.png");
-    background-size: 50%, contain;
-    background-repeat: repeat;
-    color: white;
-}
-/*#background
-{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100vw;
-    height: 100vh;
-    background: url("background.png") repeat;
-    background-size: contain;
-    z-index: 1;
-    opacity: 0.2;
-}*/
 
-#list{
-    font-weight: bold;
+#content{
+    margin-left: 13vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
-header{
+
+h1{
     font-size: 1.25rem;
 }
+
 .subheadings{
     font-size: 1.10rem;
 }
+
 img{
-    max-width: 10%;
+    max-width: 12%;
     float: right;
 }
