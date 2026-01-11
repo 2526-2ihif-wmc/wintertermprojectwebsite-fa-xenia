@@ -185,3 +185,8 @@ p{
     bottom: 0;
     text-align: center;
 }
+.dropdown{
+    position: fixed;
+    z-index: 1;
+    left: 38%;
+}
