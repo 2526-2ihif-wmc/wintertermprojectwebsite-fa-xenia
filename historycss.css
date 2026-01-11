@@ -50,6 +50,14 @@ h1{
 }
 
 img{
-    max-width: 12%;
+    border: 0.2rem ridge #cdcdcd;
+    margin: 0.5rem;
+}
+#print{
+    max-width: 9rem;
     float: right;
+}
+#portrait{
+    float: left;
+    max-width: 12rem;
 }

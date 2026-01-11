@@ -1,0 +1,75 @@
+.carousel-item{
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading{
+    font-family: Monsieur La Doulaise;
+    font-size: 8.5rem;
+    position: relative;
+    top: 2%;
+    left: 5%;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+#couture{
+    position: relative;
+    text-align: center;
+    left: 10%;
+}
+#first\ slide{
+    position: relative;
+    width: 20%;
+    height: 55%;
+    border: 5px ridge palegoldenrod;
+    right: 50.3%;
+    top: 2%;
+    float: right;
+}
+#blackstripe{
+    position: fixed;
+    height: 1000vh;
+    width: 1.5px;
+    background-color: black;
+    top: 0;
+    left: 50%;
+}
+#background\ first\ slide{
+    position: fixed;
+    background: radial-gradient(ellipse at center, white 0%, #fff8d4 100%);
+    border-bottom: 2px solid darkgoldenrod;
+    width: 50vw;
+    height: 43vh;
+}
+#overview\ haute\ couture{
+    position: relative;
+    top: 5%;
+    left: 2%;
+    width: 25%;
+    height: 50%;
+    font-size: 110%;
+}
+.pearls{
+    background: radial-gradient(ellipse at center, #ffffff 0%, #d5c8a2 50%);
+    width: 2rem;
+    height: 2rem;
+    border: solid #d5c8a2 2px;
+    border-radius: 50%;
+    position: fixed;
+    box-shadow: #b4b5bd 2px 2px 2px;
+    z-index: 1;
+}
+#pearl1{
+    top: 15%;
+    left: 3.5%;
+}
+
+#pearl2{
+    top: 20%;
+    left: 20%;
+}
+#pearl3{
+    left: 45%;
+    top: 5%;
+}
