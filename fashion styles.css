@@ -2,7 +2,11 @@
     width: 100vw;
     height: 100vh;
 }
-#background\ first\ slide{
+p{
+    position: relative;
+    width: 48%;
+}
+.background_heading{
      position: fixed;
      background: radial-gradient(ellipse at center, white 0%, #fff8d4 100%);
      border-bottom: 2px solid darkgoldenrod;
@@ -56,8 +60,8 @@
  }
 .heading{
     font-family: Monsieur La Doulaise;
-    font-size: 8.5rem;
     position: relative;
+    font-size: 8.5rem;
     top: 2%;
     left: 5%;
     width: 45%;
@@ -79,20 +83,20 @@
     float: right;
 }
 #overview\ haute\ couture{
-    position: relative;
     top: 5%;
     left: 2%;
     width: 25%;
     height: 50%;
     font-size: 110%;
 }
-#black_stripe{
+.black_stripe{
     position: fixed;
     height: 1000vh;
     width: 1.5px;
     background-color: #000000;
     top: 0;
     left: 50%;
+    z-index: 1;
 }
 #fall2007_2{
      position: relative;
@@ -104,7 +108,6 @@
      border: ridge palegoldenrod 5px;
  }
 #history_p{
-    position: relative;
     left: 71%;
     width: 28%;
     height: 100%;
@@ -117,4 +120,68 @@
     left: 52%;
     width: 48%;
     font-size: 110%;
+}
+#Rococo{
+    font-size: 7rem;
+    font-weight: bold;
+    left: 0;
+    top: 7%;
+    text-align: center;
+}
+#rococo_bg{
+    background: radial-gradient(circle, #abc9d5 0%, #e2f7ff 80%,white 100% );
+    border-bottom: #abc9d5 3px solid;
+    height: 25%;
+}
+#laceborder{
+    position: fixed;
+    width: 50%;
+    height: 8%;
+    top: 0;
+}
+#rococo_part1{
+    top: 10%;
+    width: 30%;
+    left: 1%;
+}
+#rococo_part2{
+    top: 10%;
+    left: 1%;
+    width: 30%;
+}
+#rococo_part2_rest{
+    top: 9%;
+    left: 1%;
+}
+#rococo_part3, #rococo_part4, #rococo_part5{
+    left: 51%;
+    top: -90%;
+}
+#rococo_part4, #rococo_part5{
+    width: 30%;
+}
+#blue_dress_portrait{
+    position: fixed;
+    width: 17%;
+    height: 50%;
+    left: 32%;
+    top: 26%;
+    border: ridge palegoldenrod 5px;
+}
+#fashionatversailles{
+    position: fixed;
+    width: 17%;
+    height: 50%;
+    top: 38%;
+    right: 1%;
+    border: ridge palegoldenrod 5px;
+}
+#gradiant_page2 {
+    position: fixed;
+    height: 3rem;
+    width: 50vw;
+    background: linear-gradient(to top, #e2f7ff 0%, white 100%);
+    right: 0;
+    bottom: 0;
+    text-align: center;
 }
