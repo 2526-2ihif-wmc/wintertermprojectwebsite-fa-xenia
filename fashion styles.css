@@ -2,7 +2,58 @@
     width: 100vw;
     height: 100vh;
 }
-
+#background\ first\ slide{
+     position: fixed;
+     background: radial-gradient(ellipse at center, white 0%, #fff8d4 100%);
+     border-bottom: 2px solid darkgoldenrod;
+     width: 50vw;
+     height: 43vh;
+ }
+.pearls{
+    background: radial-gradient(ellipse at center, #ffffff 0%, #d5c8a2 50%);
+    width: 2rem;
+    height: 2rem;
+    border: solid #d5c8a2 2px;
+    border-radius: 50%;
+    position: fixed;
+    box-shadow: #b4b5bd 2px 2px 2px;
+    z-index: 1;
+}
+#pearl1{
+    top: 15%;
+    left: 3.5%;
+}
+#pearl2{
+    top: 20%;
+    left: 20%;
+}
+#pearl3{
+    height: 1.5rem;
+    width: 1.5rem;
+    left: 25%;
+    top: 8%;
+}
+#pearl4{
+    top: 35%;
+    left: 45%;
+    height: 2.2rem;
+    width: 2.2rem;
+}
+#pearl5{
+    top: 4%;
+    left: 51%;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+#gradiant_page1{
+     position: fixed;
+     height: 5rem;
+     width: 50vw;
+     background: linear-gradient(to top, #f1e6b9 0%, white 100%);
+     right: 0;
+     bottom: 0;
+     text-align: center;
+ }
 .heading{
     font-family: Monsieur La Doulaise;
     font-size: 8.5rem;
@@ -18,7 +69,7 @@
     text-align: center;
     left: 10%;
 }
-#first\ slide{
+#fall2007_1{
     position: relative;
     width: 20%;
     height: 55%;
@@ -26,21 +77,6 @@
     right: 50.3%;
     top: 2%;
     float: right;
-}
-#blackstripe{
-    position: fixed;
-    height: 1000vh;
-    width: 1.5px;
-    background-color: black;
-    top: 0;
-    left: 50%;
-}
-#background\ first\ slide{
-    position: fixed;
-    background: radial-gradient(ellipse at center, white 0%, #fff8d4 100%);
-    border-bottom: 2px solid darkgoldenrod;
-    width: 50vw;
-    height: 43vh;
 }
 #overview\ haute\ couture{
     position: relative;
@@ -50,26 +86,35 @@
     height: 50%;
     font-size: 110%;
 }
-.pearls{
-    background: radial-gradient(ellipse at center, #ffffff 0%, #d5c8a2 50%);
-    width: 2rem;
-    height: 2rem;
-    border: solid #d5c8a2 2px;
-    border-radius: 50%;
+#black_stripe{
     position: fixed;
-    box-shadow: #b4b5bd 2px 2px 2px;
-    z-index: 1;
+    height: 1000vh;
+    width: 1.5px;
+    background-color: #000000;
+    top: 0;
+    left: 50%;
 }
-#pearl1{
-    top: 15%;
-    left: 3.5%;
+#fall2007_2{
+     position: relative;
+     float: right;
+     width: 18%;
+     height: 50%;
+     top: -87%;
+     left: -10%;
+     border: ridge palegoldenrod 5px;
+ }
+#history_p{
+    position: relative;
+    left: 71%;
+    width: 28%;
+    height: 100%;
+    top: -92%;
+    font-size: 110%;
 }
-
-#pearl2{
-    top: 20%;
-    left: 20%;
-}
-#pearl3{
-    left: 45%;
-    top: 5%;
+#history_rest{
+    position: relative;
+    top: -137%;
+    left: 52%;
+    width: 48%;
+    font-size: 110%;
 }
