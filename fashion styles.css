@@ -107,14 +107,14 @@ p{
      left: -10%;
      border: ridge palegoldenrod 5px;
  }
-#history_p{
+#history_haute{
     left: 71%;
     width: 28%;
     height: 100%;
     top: -92%;
     font-size: 110%;
 }
-#history_rest{
+#history_haute_rest{
     position: relative;
     top: -137%;
     left: 52%;
@@ -189,4 +189,52 @@ p{
     position: fixed;
     z-index: 1;
     left: 38%;
+}
+#empire_bg{
+    background: radial-gradient(ellipse at center, #ffffff 0%, silver 100%);
+    border-bottom: 2px solid #9f9f9f;
+    height: 24vh;
+}
+#empire{
+    font-size: 7rem;
+    text-align: center;
+    top: 4%;
+    left: 0;
+}
+#PrincessDorothea{
+    position: relative;
+    height: 45%;
+    width: 17%;
+    border: ridge palegoldenrod 5px;
+    margin: 1%;
+    top: 9%;
+}
+#overview_empire1, #overview_empire2{
+    top: -38%;
+    width: 30.5%;
+    left: 19%;
+}
+#LaSoiree{
+    position: fixed;
+    left: 23%;
+    bottom: 1%;
+    width: 26%;
+    height: 31%;
+    border: ridge palegoldenrod 5px;
+
+}
+.history_empire{
+    position: relative;
+    left: 52%;
+    top: -109%;
+    margin: 0.3%;
+}
+#gradiant_page3 {
+    position: fixed;
+    height: 2.5rem;
+    width: 50vw;
+    background: linear-gradient(to top, silver 0%, white 100%);
+    right: 0;
+    bottom: 0;
+    text-align: center;
 }
