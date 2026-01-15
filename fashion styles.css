@@ -1,6 +1,7 @@
 .dropdown{
     position: fixed;
-    left: 60%;
+    left: 55%;
+    z-index: 2;
 }
 .carousel-item{
     width: 100vw;
@@ -226,7 +227,7 @@ p{
 .history_empire{
     position: relative;
     left: 52%;
-    top: -96%;
+    top: -92%;
     margin: 0.3%;
 }
 #gradiant_page3 {
@@ -284,8 +285,20 @@ p{
     right: 30%;
     background-color: #f6ddc2;
     transform: rotate(30deg);
-    border-radius: 20%;
+    border-radius: 25%;
     z-index: 1;
+}
+#clothes{
+    position: fixed;
+    bottom: -43%;
+    width: 30vw;
+    height: 20vw;
+    right: 27%;
+    background-color: #c8aee1;
+    transform: rotate(30deg);
+    border-radius: 0;
+    border-left: solid #aa9a87 6px;
+    z-index: 2;
 }
 #eyewhite1, #eyewhite2{
     position: fixed;
@@ -306,7 +319,7 @@ p{
 #iris1, #iris2{
     position: fixed;
     border-radius: 50%;
-    background: repeating-radial-gradient(ellipse at center, #352306 0%, #231705 15%);
+    background: #231704;
     width: 5vw;
     height: 5vw;
     z-index: 3;
@@ -439,4 +452,13 @@ p{
 #circle4{
     bottom: 35%;
     right: 1%;
+}
+#eiffel_tower{
+    position: fixed;
+    z-index: -2;
+    width: 75vw;
+    height: 150vw;
+    top: -100%;
+    left: -15%;
+    opacity: 0.7;
 }
