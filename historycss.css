@@ -61,3 +61,11 @@ img{
     float: left;
     max-width: 12rem;
 }
+#rococo_picture{
+    width: 25%;
+    float: left;
+}
+#empire_example_picture{
+    width: 25%;
+    float: right;
+}

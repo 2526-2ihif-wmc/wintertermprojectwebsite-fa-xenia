@@ -46,6 +46,24 @@ h3{
     font-size: 1.15rem;
     font-weight: lighter;
 }
-br{
-    ;
+#christian_dior_pic{
+    width: 13%;
+    height: 20%;
+    float: right;
+}
+#cocochanel_pic{
+    width: 15%;
+    height: 18%;
+    float: right;
+    margin: 1%;
+}
+#chanel_suit{
+    width: 12%;
+    height: 18%;
+    float: right;
+    margin: 1%;
+}
+#little_black_dress{
+    width: 14%;
+    float: right;
 }
